@@ -1,0 +1,34 @@
+plexmediaserver.txt
+Created Sun May 28 09:33:09 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Plex Media Server
+Stream your entire collection of movies, TV shows, music, and photos from home.
+Anywhere you go, on the devices you love.
+
+
+
+Sun May 28 09:33:09 AKDT 2017
+=============================
+Updated bornite and htpc to latest plex media server v1.5.6:
+
+# dpkg -i plexmediaserver_1.5.6.3790-4613ce077_amd64.deb 
+(Reading database ... 149083 files and directories currently installed.)
+Preparing to unpack plexmediaserver_1.5.6.3790-4613ce077_amd64.deb ...
+Removed symlink /etc/systemd/system/multi-user.target.wants/plexmediaserver.service.
+Unpacking plexmediaserver (1.5.6.3790-4613ce077) over (1.3.3.3148-b38628e) ...
+Setting up plexmediaserver (1.5.6.3790-4613ce077) ...
+Created symlink from /etc/systemd/system/multi-user.target.wants/plexmediaserver.service to \
+/etc/systemd/system/plexmediaserver.service.
+Processing triggers for systemd (215-17+deb8u7) ...
+Processing triggers for desktop-file-utils (0.22-1) ...
+Processing triggers for mime-support (3.58) ...
+# 
+
+
+Links
+=====
+Plex Media Server
+https://www.plex.tv/
+
