@@ -8,6 +8,24 @@ Stream your entire collection of movies, TV shows, music, and photos from home.
 Anywhere you go, on the devices you love.
 
 
+Thu Aug 31 17:37:01 AKDT 2017
+=============================
+Updated htpc to lasted plex media server v1.7.5:
+
+htpc:/usr/local/debs/media/plexmediaserver# dpkg -i plexmediaserver_1.7.5.4035-313f93718_amd64.deb
+(Reading database ... 153742 files and directories currently installed.)
+Preparing to unpack plexmediaserver_1.7.5.4035-313f93718_amd64.deb ...
+Removed symlink /etc/systemd/system/multi-user.target.wants/plexmediaserver.service.
+Unpacking plexmediaserver (1.7.5.4035-313f93718) over (1.5.6.3790-4613ce077) ...
+Setting up plexmediaserver (1.7.5.4035-313f93718) ...
+Created symlink from /etc/systemd/system/multi-user.target.wants/plexmediaserver.service to /etc/systemd/system/plexmediaserver.service.
+Processing triggers for systemd (215-17+deb8u7) ...
+Processing triggers for desktop-file-utils (0.22-1) ...
+Processing triggers for mime-support (3.58) ...
+htpc:/usr/local/debs/media/plexmediaserver#
+
+That was too easy.
+
 
 Sun May 28 09:33:09 AKDT 2017
 =============================
@@ -27,8 +45,14 @@ Processing triggers for mime-support (3.58) ...
 # 
 
 
+Filelist
+========
+plexmediaserver_1.7.5.4035-313f93718_amd64.deb
+  Advised available on August 24, 2017
+  https://downloads.plex.tv/plex-media-server/1.7.5.4035-313f93718/plexmediaserver_1.7.5.4035-313f93718_amd64.deb
+
+
 Links
 =====
 Plex Media Server
 https://www.plex.tv/
-
