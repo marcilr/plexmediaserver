@@ -8,6 +8,21 @@ Stream your entire collection of movies, TV shows, music, and photos from home.
 Anywhere you go, on the devices you love.
 
 
+Tue Sep 12 20:12:57 AKDT 2017
+=============================
+o Updated htpc to lasted plex media server v1.8.4.4249:
+
+htpc:/usr/local/debs/media/plexmediaserver# dpkg -i plexmediaserver_1.8.4.4249-3497d6779_amd64.deb
+(Reading database ... 153750 files and directories currently installed.)
+Preparing to unpack plexmediaserver_1.8.4.4249-3497d6779_amd64.deb ...
+Removed symlink /etc/systemd/system/multi-user.target.wants/plexmediaserver.service.
+Unpacking plexmediaserver (1.8.4.4249-3497d6779) over (1.8.1.4139-c789b3fbb) ...
+Setting up plexmediaserver (1.8.4.4249-3497d6779) ...
+Created symlink from /etc/systemd/system/multi-user.target.wants/plexmediaserver.service to /etc/systemd/system/plexmediaserver.service.
+Processing triggers for systemd (215-17+deb8u7) ...
+Processing triggers for desktop-file-utils (0.22-1) ...
+Processing triggers for mime-support (3.58) ...
+htpc:/usr/local/debs/media/plexmediaserver#
 
 
 Thu Aug 31 17:37:01 AKDT 2017
