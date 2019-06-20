@@ -5,16 +5,22 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 
 Plex Media Server installation
 
-
 Stream your entire collection of movies, TV shows, music, and photos
 from home. Anywhere you go, on the devices you love.
+
+At http://localhost:32400/web/index.html#!/settings/account
+
+Has:
+  Lifetime Plex Pass   <=== Yeh hah!
+
+Appears to be working
 
 
 Wed Jun 19 21:59:52 AKDT 2019
 =============================
 The htpc in garage is down so installing htpc on malachite workstation.
 
-Download latest plex media server from:
+1. Download latest plex media server from:
   https://www.plex.tv/media-server-downloads/
 
   Plex Media Server for Linux
@@ -28,10 +34,253 @@ Selected:
   SHA-1 Checksum
   edc394304a7f40575b16320ee35b6490eaa6b1b1
 
+plexmediaserver_1.16.0.1226-7eb2c8f6f_amd64.deb (76MB)
+  Took solid 10 minutes to download
+  https://downloads.plex.tv/plex-media-server-new/1.16.0.1226-7eb2c8f6f/debian/plexmediaserver_1.16.0.1226-7eb2c8f6f_amd64.deb
 
-plexmediaserver_1.16.0.1226-7eb2c8f6f_amd64.deb (75.3MB)
-Took solid 10 minutes to download
-https://downloads.plex.tv/plex-media-server-new/1.16.0.1226-7eb2c8f6f/debian/plexmediaserver_1.16.0.1226-7eb2c8f6f_amd64.deb
+2. Install plexmediaserver_1.16.0.1226-7eb2c8f6f_amd64.deb on malachite:
+# dpkg -i plexmediaserver_1.16.0.1226-7eb2c8f6f_amd64.deb
+Selecting previously unselected package plexmediaserver.
+(Reading database ... 299398 files and directories currently installed.)
+Preparing to unpack plexmediaserver_1.16.0.1226-7eb2c8f6f_amd64.deb ...
+Unpacking plexmediaserver (1.16.0.1226-7eb2c8f6f) ...
+Setting up plexmediaserver (1.16.0.1226-7eb2c8f6f) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/plexmediaserver.service → /lib/systemd/system/plexmediaserver.service.
+Processing triggers for libc-bin (2.24-11+deb9u4) ...
+Processing triggers for desktop-file-utils (0.23-1) ...
+Processing triggers for mime-support (3.60) ...
+Processing triggers for gnome-menus (3.13.3-9) ...
+#
+
+# dpkg -l | grep plexmediaserver
+ii  plexmediaserver   1.16.0.1226-7eb2c8f6f   amd64   \
+Plex organizes all of your personal media so you can easily access and enjoy it.
+# 
+
+Many, many hits under 'ps -aux' for plexmediaserver
+
+Looks good.
+
+Start/stop plexmediaserver?
+
+3. Sign into plex online
+
+4. Directory configuration?
+
+https://www.plex.tv/your-media/
+  Control your media destiny! Organize, beautify, stream,
+  and share your personal collection of movies, TV, music,
+  and photos anywhere, on all your devices.
+
+  click Organize & Stream
+
+5. At https://app.plex.tv/desktop
+Get your Plex Media Server
+
+To get started streaming your media everywhere,
+download and install Plex Media Server on the computer 
+or device where you keep your media.
+
+DOWNLOAD PLEX MEDIA SERVER <=== Downloaded and installed 
+                                to malachite already
+
+Downlod for NAS Platform   <=== Looks proimising
+
+
+Looking for servers...
+
+Why can’t the Plex app find or connect to my Plex Media Server?
+https://support.plex.tv/articles/204604227-why-can-t-the-plex-app-find-or-connect-to-my-plex-media-server/
+
+Plex should be running at:
+  http://localhost:32400/manage
+
+===> PLEX
+     Plex Web
+     would like to sign in to Plex Account
+     marcilr@gmail.com
+     https://app.plex.tv/auth/#!?clientID=... hella long url with all info.
+      
+     click SIGN IN
+
+===> http://localhost:32400/web/index.html#!/setup/bded40ae8255b32a558f964df025428bab6c6c6b
+     How Plex Works
+     Plex Media Server runs on the computer where you keep your media
+
+     Plex scans your media, automatically organizes it, and makes it beautiful
+
+     Play your media on any screen with your favorite Plex app
+ 
+     click GOT IT!
+
+===> PLEX
+     Server Setup
+
+     Name    Media Library    Finish
+
+     Great, we found a server!
+
+     Give it a friendly name to help identify it in Plex apps and on your network.
+     
+     malachite
+
+     <uncheck> Allow me to access my media outside my home
+
+     Plex will attempt to automatically configure your network
+     to allow Plex apps outside your home to access Plex Media
+     Server on this computer.  Remember this computer will
+     need to be turned on to access your media.
+
+     click Next
+
+Create new mount point for vidoes:
+    # mkdir -p /usr/local/videos
+
+    Unmount current videos:
+    # umount /home/marcilr/videos/80GB/
+     
+    Updates vidos mount point in /etc/fstab:
+    # nano /etc/fstab
+  
+    /dev/sdb1   /home/marcilr/videos/80GB   ext4   errors=remount-ro 0   1     
+        to:
+    /dev/sdb1   /usr/local/videos   ext4   errors=remount-ro 0   1
+
+    Mount new mount point:
+    # mount /usr/local/videos/
+
+    $ ls -1 /usr/local/videos/
+    Addicted (2014) [720p]
+    Aquaman (2018) [1080p]
+    Atomic Blonde (2017) [2017]
+    Blade Runner (2017) [1080p]
+    Creation (2009) [720p]
+    Dunkirk (2018) [1080p]
+    dvdrip
+    Jersey Boys [1080p] (2014)
+    Larry Crowne (2011) [1080p]
+    Life of Crime (2014) [1080p]
+    Life of the Party (2018) [1080p]
+    lost+found
+    Salmon Fishing in the Yemen (2011) [1080p]
+    The Love Punch (2013) [720p]
+    The Proposal (2009) [1080p]
+    $
+
+    Looks good!
+
+===> Server Setup
+
+1. Organize Your Media
+
+Plex organizes your media into libraries.  You can add as
+many libraries as you want, and you can have multiple
+libraries with the same type.
+
+click ADD LIBRARY
+
+2. At PLEX
++Add Library
+Select your library type
+
+click Movies
+
+
+3. At PLEX
++Add Library
+
+Name:     Movies
+Language: English
+
+click NEXT
+
+
+4. At PLEX
++Add Library
+Add folders to your library
+
+click BROWSE FOR MEDIA FOLDERS
+
+Help us out by following <our guide> to naming and organizing your media.
+http://support.plex.tv/hc/en-us/categories/200028098-Media-Preparation 
+
+5. At PLEX
+Add Folder
+/var/lib/plexmediaserver
+===> /usr/local/videos
+
+click ADD
+
+6. At PLEX
++ Add Library
+
+Add folders to your library
+/usr/local/videos
+
+BROWSE For MEDIA FOLDER
+
+Help us out by following <our guide> to naming and organizing your media.
+http://support.plex.tv/hc/en-us/categories/200028098-Media-Preparation
+
+click ADD LIBRARY
+
+7. At PLEX
+Server Setup 
+
+Name   Media Library    Finish
+
+Organize Your Media
+Plex organizes your media into libraries.  You can add
+as many libraries as you want, and you can have multiple
+libraries with the same type.
+
+ADD LIBRARY
+
+Movies <=== Just added
+
+click NEXT
+
+8. At PLEX
+Server Setup
+
+Name   Media Library    Finish
+
+GET PLEX APPS
+===> https://plex.tv/downloads
+
+All set! Your Plex Media Server is working hard to find
+your media and make it beautiful.  Grab the Plex app for
+all your favorite devices to get the most out of Plex and
+start streaming everywhere!
+
+click DONE
+
+9. There was an unexpected error loading the dashboard
+Please visit our forums if you continue to experience problems
+
+Go to Forums
+Retry
+
+10. Not ready movies from /usr/local/videos inspecting 
+groups:
+
+$ grep plex /etc/group
+video:x:44:marcilr,plex
+plex:x:139:
+$ 
+
+Lookd like setting the videos group to video would do
+the trick:
+i.  marcilr is part of video group already
+ii. Update ownership of /usr/local/videos to video
+    group:
+
+    # chown -R marcilr:video /usr/local/videos
+
+
+
+
+
 
 
 Thu Mar 22 20:29:56 AKDT 2018
