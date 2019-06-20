@@ -14,6 +14,24 @@ Wed Jun 19 21:59:52 AKDT 2019
 =============================
 The htpc in garage is down so installing htpc on malachite workstation.
 
+Download latest plex media server from:
+  https://www.plex.tv/media-server-downloads/
+
+  Plex Media Server for Linux
+  1.16.0.1226-7eb2c8f6f
+  June 13, 2019
+
+  click Choose Distribution
+
+Selected:
+  Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit
+  SHA-1 Checksum
+  edc394304a7f40575b16320ee35b6490eaa6b1b1
+
+
+plexmediaserver_1.16.0.1226-7eb2c8f6f_amd64.deb (75.3MB)
+Took solid 10 minutes to download
+https://downloads.plex.tv/plex-media-server-new/1.16.0.1226-7eb2c8f6f/debian/plexmediaserver_1.16.0.1226-7eb2c8f6f_amd64.deb
 
 
 Thu Mar 22 20:29:56 AKDT 2018
