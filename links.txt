@@ -11,3 +11,6 @@ Links
 Plex Media Server
 https://www.plex.tv/
 
+Plex Media Server Downloads
+https://www.plex.tv/media-server-downloads/
+
