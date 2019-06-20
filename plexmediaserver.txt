@@ -10,6 +10,21 @@ Stream your entire collection of movies, TV shows, music, and photos
 from home.  Anywhere you go, on the devices you love.
 
 
+Wed Jun 19 22:18:33 AKDT 2019
+=============================
+At last plex online login:
+
+Level up your music library with 60 million high-quality songs.
+TIDAL is seamlessly integrated with your existing music
+library — beautifully organized right in Plex.
+
+clicked Start 90-Day Free Trial
+
+Opened:
+  https://www.plex.tv/music/
+
+
+
 Filelist
 ========
 plexmediaserver_1.7.5.4035-313f93718_amd64.deb
