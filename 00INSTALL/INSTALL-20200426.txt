@@ -5,3 +5,27 @@ Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
 
 Installation of plex media server on Compulab fitlet2 workstation
 running latest Debian Buster 10.3 amd64
+
+
+1. Verify os version:
+$ cat /etc/debian_version 
+10.3
+$
+
+2. Updated os:
+$ sudo aptitude update
+Hit http://deb.debian.org/debian buster InRelease
+Hit http://security.debian.org/debian-security buster/updates InRelease
+Ign http://dl.google.com/linux/chrome/deb stable InRelease
+Hit http://deb.debian.org/debian buster-updates InRelease
+Hit http://dl.google.com/linux/chrome/deb stable Release
+                                         
+$ sudo aptitude upgrade
+Resolving dependencies...                
+No packages will be installed, upgraded, or removed.
+0 packages upgraded, 0 newly installed, 0 to remove and 66 not upgraded.
+Need to get 0 B of archives. After unpacking 0 B will be used.
+                                         
+$ 
+
+Looks good.
