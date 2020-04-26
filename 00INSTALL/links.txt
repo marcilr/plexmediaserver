@@ -1,0 +1,12 @@
+links.txt
+Created Sun 26 Apr 2020 03:32:51 PM AKDT
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Installation of plex media server related links
+
+
+Links
+=====
+Linux packages for Plex Media Player
+https://knapsu.eu/plex/
