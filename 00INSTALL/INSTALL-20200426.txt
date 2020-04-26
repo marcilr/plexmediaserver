@@ -1,0 +1,7 @@
+INSTALL-20200426.txt
+Created Sun 26 Apr 2020 03:28:13 PM AKDT
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Installation of plex media server on Compulab fitlet2 workstation
+running latest Debian Buster 10.3 amd64
