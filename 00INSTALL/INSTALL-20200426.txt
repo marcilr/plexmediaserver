@@ -60,6 +60,28 @@ Plex_Media_Player_2.55.0.1069-2369bed9_x64.AppImage   DOWNLOAD
   https://knapsu.eu/data/plex/Plex_Media_Player_2.55.0.1069-2369bed9_x64.AppImage
   Build date: 2020-04-14
   NOTE: Downloaded this one (Sun 26 Apr 2020 04:02:54 PM AKDT)
+        Saved to ~/Downloads (debian wanted to open with xfburn)
+
+  xfburn - Simple CD/DVD burning tool
+  --man
+
+  $ xfburn Plex_Media_Player_2.55.0.1069-2369bed9_x64.AppImage 
+  No burners are currently available
+  Please unmount and restart the application.
+  If no disc is in the drive, check that you have read 
+  and write access to the drive with the current user.
+  click Close
+  $
+
+  This pops up "Burn image" window with:
+  
+  Image to burn:
+    Plex_Media_Player_2.55.0.1069-2369bed9_x64.AppImage
+
+  Burning device:
+    <blank>
+
+  click Cancel since no burner atteched to Fitlet 2 box.
 
 Plex_Media_Player_2.54.0.1067-1a7bc4f6_x64.AppImage   DOWNLOAD
   Build date: 2020-03-31
