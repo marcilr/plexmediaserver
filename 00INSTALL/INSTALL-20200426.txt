@@ -30,7 +30,10 @@ $
 
 Looks good.
 
-3. "Linux packages for Plex Media Player
+3.  On Plex Media Player download site (https://knapsu.eu/plex/)
+download Plex Media Player AppImage installer:
+
+"Linux packages for Plex Media Player
 
 There are two packaging formats available. AppImage and Flatpak.
 Both aim to be universal and distribution agnostic.
@@ -81,7 +84,205 @@ Plex_Media_Player_2.55.0.1069-2369bed9_x64.AppImage   DOWNLOAD
   Burning device:
     <blank>
 
-  click Cancel since no burner atteched to Fitlet 2 box.
+  click Cancel since only need to run file and no attached burner.
+
+4. Make Plex_Media_Player_2.55.0.1069-2369bed9_x64.AppImage download
+executable and run to install:
+
+  $ cd ~/Downloads/
+  $ chmod 755 Plex_Media_Player_2.55.0.1069-2369bed9_x64.AppImage 
+  $ ./Plex_Media_Player_2.55.0.1069-2369bed9_x64.AppImage
+
+  This opens Install window with:
+
+  "Install
+  Would you like to integrate /home/marcilr/Downloads/\
+  Plex_Media_Player_2.55.0.1069bed9_x64.AppImage
+  with your system?
+
+  This will add it to your applications menu and install
+  icons.
+  If you do don't do this you can still launch the application
+  by double-clicking on tre AppImage.
+
+  click Yes
+
+5. Next the Plex Media Player window opens with:
+
+"PLEX
+Stream it your way
+Stream all your personal vidoe, music and photo
+collections along with a vast selection of free ad-
+supported movies, TV shows, podcasts, and news
+to your favorite devices.
+
+Get started at plex.tv/sign-up
+Already have an account? <===
+
+Sign In
+
+6. Have life time subscription
+click Sign In
+
+Get:
+
+  PLEX
+  To sign in visit https://plex.tv/link
+  from a web browser on another device, and enter the code below.
+  *****  
+
+7. In chrome open:
+  https://plex.tv/link
+
+Get page with:
+
+PLEX
+Create your free account
+No credit card required
+
+Continue with Google
+Continue with Facebook
+Continue with Apple
+
+Email address:    marcilr@gmail.com
+Create password
+
+Create an Account
+
+Already have an account? Sign in
+
+By creating an account or continuing to use a Plex application, 
+website, or software, you acknowledge and agree that you have 
+accepted the Terms of Service and have reviewed the Privacy
+Policy. 
+
+click Sign in
+
+8. This opens:
+https://www.plex.tv/link/
+
+with:
+
+PLEX
+Link Account
+To link your account, please enter the 4-character code
+displayed on you app.
+
+Entered "*****" code from step 6.   <===
+
+You're signed in as marcilr
+Sign in as a different user
+
+click Link
+
+Get "Code not found or expired"
+
+9. On next page click "Refresh code" to get another code.
+
+10. Went to https://www.plex.tv/link/ to login with
+new code.  Was able to link and get:
+
+PLEX
+Account Linked
+Your account has been successfully,
+please revisit you app to continue.
+
+
+Looks good.
+
+11. In Plex Media Player window get 'marcilr' user
+with blanks for security code.
+
+Don't know this code click "Forgot?"
+
+This pops up the PLEX Account Sign in window with:
+  PLEX
+  Account Sign in
+
+  Continue with Google
+  Continue with Facebook
+  Continue with Apple
+
+  Email or Username:    marcilr@gmail.com
+  Password              Forgot?
+
+  Sign In
+
+Need an account? Press the Google, Facebook,
+or Apple buttons above, or 
+sign up with email
+
+click "Forgot?"
+
+12. This brings up:
+  PLEX
+  Account Sign in 
+  Reset Password
+  Please enter the email address used to create your Plex Account,
+  and we'll send you instructions for resetting your password.
+
+  Email address
+    marcilr@gmail.com
+
+  Send Instructions
+  Sign in
+
+click Send Instructions
+
+13. This brings up:
+  PLEX
+  Account Sign in
+  Reset Password
+  
+  If you have an account with us, you should receive a password
+  reset email momentarily.  Please check you inbox
+
+  Sign in
+
+14. Check my inbox to get reset password.
+  Open Plex password reset request message
+
+  click RESET PASSWORD
+
+  (Note: The password reset link will expire after 24 hours.)
+
+  Thank you for choosing Plex!
+  The Plex Team 
+
+15. At PLEX
+Update Account Password
+Password must be at least 8 characters long.  We love complexity,
+let creativity shine!
+  ?GrevmelkAtaj3 (QUESTION_MARK-Grev-melk-At-aj-THREE)
+
+16. At PLEX
+Password Updated
+Your account has been successfully updated.
+Please sign in with your shiny new password.
+
+
+Looks good.
+
+17. Open https://www.plex.tv/sign-in/ and try new login:
+
+At PLEX Account Sign in:
+Email or Username: marcilr@gmail.com
+Password: *****   <=== new password I just set
+
+18. The new credentail works and logs into plex.tv with:
+PLEX
+Watch Free | Your Media | Music | Live TV | My Account | Launch
+
+Stream smarter
+Your favorite movies, TV, music, web shows, podcasts, and more,
+all streamed to your favorite screens.
+
+Your Media
+Music & Podcasts
+Live TV & DVR
+Free Movies & TV
+
+
 
 Plex_Media_Player_2.54.0.1067-1a7bc4f6_x64.AppImage   DOWNLOAD
   Build date: 2020-03-31
@@ -91,7 +292,9 @@ Plex_Media_Player_2.53.0.1063-4c40422c_x64.AppImage   DOWNLOAD
   Build date: 2020-03-18
   https://knapsu.eu/data/plex/Plex_Media_Player_2.53.0.1063-4c40422c_x64.AppImage
 
-
+8. Have lifetime account so at https://plex.tv/link
+  Email or Username: 
+  click "Sign in"
 
 
 Links
