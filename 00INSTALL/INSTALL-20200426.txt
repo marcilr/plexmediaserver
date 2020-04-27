@@ -58,12 +58,15 @@ Build from official Plex packages.
 
 Plex_Media_Player_2.55.0.1069-2369bed9_x64.AppImage   DOWNLOAD
   https://knapsu.eu/data/plex/Plex_Media_Player_2.55.0.1069-2369bed9_x64.AppImage
+  Build date: 2020-04-14
   NOTE: Downloaded this one (Sun 26 Apr 2020 04:02:54 PM AKDT)
 
 Plex_Media_Player_2.54.0.1067-1a7bc4f6_x64.AppImage   DOWNLOAD
+  Build date: 2020-03-31
   https://knapsu.eu/data/plex/Plex_Media_Player_2.54.0.1067-1a7bc4f6_x64.AppImage
 
 Plex_Media_Player_2.53.0.1063-4c40422c_x64.AppImage   DOWNLOAD
+  Build date: 2020-03-18
   https://knapsu.eu/data/plex/Plex_Media_Player_2.53.0.1063-4c40422c_x64.AppImage
 
 
