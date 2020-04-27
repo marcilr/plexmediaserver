@@ -12,7 +12,7 @@ $ cat /etc/debian_version
 10.3
 $
 
-2. Updated os:
+2. Update debian os:
 $ sudo aptitude update
 Hit http://deb.debian.org/debian buster InRelease
 Hit http://security.debian.org/debian-security buster/updates InRelease
@@ -29,3 +29,47 @@ Need to get 0 B of archives. After unpacking 0 B will be used.
 $ 
 
 Looks good.
+
+3. "Linux packages for Plex Media Player
+
+There are two packaging formats available. AppImage and Flatpak.
+Both aim to be universal and distribution agnostic.
+
+AppImage is supported for a long time now, however there are known 
+problems with it like “sign in” button working only in fullscreen 
+mode. If having issues give Flatpak a try."
+
+...
+
+
+"AppImage
+
+No need to install. No root required. Download the AppImage file,
+make it executable, and double click to start the application.
+It is as simple as that.
+
+Works on all modern Linux distributions including Ubuntu, Mint, 
+Fedora, Arch, Debian and others.
+
+
+Release builds
+
+Build from official Plex packages.
+
+Plex_Media_Player_2.55.0.1069-2369bed9_x64.AppImage   DOWNLOAD
+  https://knapsu.eu/data/plex/Plex_Media_Player_2.55.0.1069-2369bed9_x64.AppImage
+  NOTE: Downloaded this one (Sun 26 Apr 2020 04:02:54 PM AKDT)
+
+Plex_Media_Player_2.54.0.1067-1a7bc4f6_x64.AppImage   DOWNLOAD
+  https://knapsu.eu/data/plex/Plex_Media_Player_2.54.0.1067-1a7bc4f6_x64.AppImage
+
+Plex_Media_Player_2.53.0.1063-4c40422c_x64.AppImage   DOWNLOAD
+  https://knapsu.eu/data/plex/Plex_Media_Player_2.53.0.1063-4c40422c_x64.AppImage
+
+
+
+
+Links
+=====
+Support and discussion thread on Plex Forums
+https://forums.plex.tv/t/plex-media-player-packages-for-linux/198091
